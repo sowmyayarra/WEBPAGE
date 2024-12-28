@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="contact-info">
+            <span>sowmya.yarra@sasi.ac.in</span>
+            <span>9999911111</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">All Events</a></li>
+                <li><a href="#">Top Events</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="auth-links">
+                <a href="#">Register</a>
+                <a href="#">Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <h1>Event Management</h1>
+                <button id="event-details-btn">Event Details</button>
+            </div>
+        </section>
+        <section class="search-section">
+            <input type="text" placeholder="Type event name">
+            <select id="city-select">
+                <option value="">Select City</option>
+                <!-- Add more options as needed -->
+            </select>
+            <select id="category-select">
+                <option value="">Select Category</option>
+                <!-- Add more options as needed -->
+            </select>
+            <input type="date" id="date-select">
+            <button id="search-event-btn">Search Event</button>
+        </section>
+        <section class="company-info">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <h2>We Are Company</h2>
+            <h3>No.1 Event Management</h3>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

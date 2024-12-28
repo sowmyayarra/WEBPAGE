@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info span {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-links a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('"C:\Users\OSS LAB\Downloads\download (1).jpg"'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner-content button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.search-section input,
+.search-section select,
+.search-section button {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.company-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.company-info p {
+    font-size: 1em;
+    color: #666;
+}
+
+.company-info h2 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.company-info h3 {
+    font-size: 1.5em;
+    color: #ff6600;
+}
+
